@@ -4,13 +4,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hackathon: Byte2Beat](https://img.shields.io/badge/Hackathon-Byte2Beat-orange)](https://byte2beat.devpost.com/)
 
-**Interactive 10-Year Cardiovascular Risk Assessment Tool** built for the **Byte2Beat** hackathon (Dec 2025 – Mar 2026).
+**Interactive 10-Year Cardiovascular Risk Assessment Tool** built for the **Byte2Beat** hackathon (March 2026).
 
 Live Demo: **[https://yourusername.github.io/cardiovascular-risk-ml/](https://kaushar-b.github.io/cardiovascular-risk-ml/))**  
 
 
 ### The Problem
-Cardiovascular disease (CVD) remains the **leading cause of death worldwide**, claiming millions of lives each year. Early identification of risk factors and understanding how they contribute to long-term outcomes can enable timely interventions, lifestyle changes, and medical follow-up — potentially saving lives.
+Cardiovascular disease (CVD) remains the **leading cause of death worldwide**, claiming millions of lives each year. Early identification of risk factors and understanding how they contribute to long-term outcomes can enable timely interventions, lifestyle changes, and medical follow-up, potentially saving lives.
 
 Traditional risk assessment tools exist, but many lack modern machine learning power, clear explanations of **why** a risk score is given, or easy public access. This project bridges that gap.
 
