@@ -44,13 +44,13 @@
       <div>
         <p class="text-lg text-gray-700">CVD is still the #1 killer globally. Traditional tools are outdated. We built <strong>FraminghamAI</strong> using the gold-standard longitudinal Framingham dataset (4,434 real patients) to assess 10-year risk with modern ML and full interpretability.</p>
         <ul class="mt-8 space-y-4 text-lg">
-          <li><i class="fas fa-check-circle text-blue-600 text-xl mr-2"></i> Early detection & progression forecasting</li>
-          <li><i class="fas fa-check-circle text-blue-600 text-xl mr-2"></i> SHAP explanations (why the model gave that score)</li>
-          <li><i class="fas fa-check-circle text-blue-600 text-xl mr-2"></i> Live web calculator anyone can use</li>
+          <li><i class="fas fa-check-circle text-blue-600 mr-2"></i> Early detection & progression forecasting</li>
+          <li><i class="fas fa-check-circle text-blue-600 mr-2"></i> SHAP explanations (why the model gave that score)</li>
+          <li><i class="fas fa-check-circle text-blue-600 mr-2"></i> Live web calculator anyone can use</li>
         </ul>
       </div>
       <div class="bg-white p-8 rounded-2xl shadow">
-        <img src="https://images.unsplash.com/photo-1576092768241-dec2310aa0f5?auto=format&fit=crop&w=600&h=400&q=80" alt="FraminghamAI medical theme" class="rounded-xl">
+        <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&q=80&w=800" alt="FraminghamAI heart health illustration" class="rounded-xl">
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@
             </div>
             <div>
               <label class="block text-sm font-medium mb-1">M/F (1=Male, 0=Female)</label>
-              <input type="number" id="M/F" value="1" class="w-full p-3 border rounded-xl">
+              <input type="number" id="mf" value="1" class="w-full p-3 border rounded-xl">
             </div>
           </div>
           <div class="grid grid-cols-2 gap-6">
@@ -120,7 +120,7 @@
         <i class="fas fa-notebook"></i> Open Reproducible Colab Notebook
       </a>
     </div>
-    <p class="mt-10 text-sm text-gray-500">Built for Byte2Beat 2026 • Viewy</p>
+    <p class="mt-10 text-sm text-gray-500">Built for Byte2Beat 2026 • Kaushar B</p>
   </section>
 
   <script>
@@ -132,7 +132,7 @@
       
       // Simple Framingham-inspired approximation (real model in notebook)
       let score = (age * 0.08) + (chol * 0.01) + (sbp * 0.015) + (smoke * 8);
-      let risk = Math.min(45, Math.max(2, Math.round(score)));
+      let risk = Math.min(100, Math.max(2, Math.round(score)));
       
       document.getElementById('riskPercent').textContent = risk + '%';
       document.getElementById('riskBar').style.width = risk + '%';
