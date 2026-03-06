@@ -6,8 +6,8 @@
 
 **Interactive 10-Year Cardiovascular Risk Assessment Tool** built for the **Byte2Beat** hackathon (Dec 2025 – Mar 2026).
 
-Live Demo: **[https://yourusername.github.io/cardiovascular-risk-ml/](https://yourusername.github.io/cardiovascular-risk-ml/)**  
-*(Replace with your actual GitHub Pages link once deployed)*
+Live Demo: **[https://yourusername.github.io/cardiovascular-risk-ml/](https://kaushar-b.github.io/cardiovascular-risk-ml/))**  
+
 
 ### The Problem
 Cardiovascular disease (CVD) remains the **leading cause of death worldwide**, claiming millions of lives each year. Early identification of risk factors and understanding how they contribute to long-term outcomes can enable timely interventions, lifestyle changes, and medical follow-up — potentially saving lives.
