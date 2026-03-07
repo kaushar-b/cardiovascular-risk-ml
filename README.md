@@ -23,7 +23,7 @@ The Framingham Heart Study (started 1948) is one of the most influential longitu
 We used a clean, de-identified subset from Kaggle:  
 → https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset
 
-This dataset is **unique** compared to smaller/static ones (e.g., UCI Heart Disease) — it captures **longitudinal patterns** from real people, making it ideal for meaningful risk assessment and interpretability (key Byte2Beat goals).
+This dataset is **unique** compared to smaller/static ones (e.g., UCI Heart Disease), it captures **longitudinal patterns** from real people, making it ideal for meaningful risk assessment and interpretability (key Byte2Beat goals).
 
 ### What We Built
 - **ML Model** — XGBoost classifier trained to estimate 10-year CVD risk (binary outcome: developed event or not within follow-up)
@@ -40,7 +40,7 @@ The live calculator runs **entirely in the browser** using vanilla JavaScript + 
 1. User fills simple form with clinical values
 2. JS computes a composite score (blending classic Framingham logic with our ML-derived feature weights)
 3. Displays percentage risk + color-coded bar + plain-language interpretation
-4. No data leaves your device — privacy-focused and instant
+4. No data leaves your device, privacy-focused and instant
 
 This makes it **practical** and scalable: anyone with a phone/browser can use it for awareness, education, or personal monitoring.
 
@@ -67,14 +67,5 @@ This project directly targets the hackathon's core themes:
 3. Follow cells: install deps → load data → train → explain → evaluate
 4. For web: open `index.html` in browser (or deploy to GitHub Pages)
 
-### Future Ideas
-- Add lifetime risk estimation
-- Integrate more features (diet, exercise)
-- Mobile-responsive enhancements
-- Export personalized PDF summary
 
 Built by **Kaushar B** for **Byte2Beat** — turning bytes into tools that help beat cardiovascular disease.
-
-Questions? Open an issue or reach out!
-
-⭐ If this helps your learning/hackathon journey, give it a star!
