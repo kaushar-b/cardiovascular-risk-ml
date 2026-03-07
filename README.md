@@ -14,7 +14,7 @@ Cardiovascular disease (CVD) remains the **leading cause of death worldwide**, c
 
 Traditional risk assessment tools exist, but many lack modern machine learning power, clear explanations of **why** a risk score is given, or easy public access. This project bridges that gap.
 
-### Our Approach – FraminghamAI
+### Approach FraminghamAI
 We built **FraminghamAI**: an end-to-end ML pipeline + interactive web calculator that assesses **10-year cardiovascular risk** using data from the legendary **Framingham Heart Study**.
 
 #### Why Framingham?
@@ -25,7 +25,7 @@ We used a clean, de-identified subset from Kaggle:
 
 This dataset is **unique** compared to smaller/static ones (e.g., UCI Heart Disease), it captures **longitudinal patterns** from real people, making it ideal for meaningful risk assessment and interpretability (key Byte2Beat goals).
 
-### What We Built
+### What's Built
 - **ML Model** — XGBoost classifier trained to estimate 10-year CVD risk (binary outcome: developed event or not within follow-up)
 - **Interpretability** — SHAP values explain which factors (e.g., systolic BP, age, smoking) drive the risk score the most — crucial for trust and clinical relevance
 - **Performance** — Strong AUC-ROC (~0.91), balanced accuracy, precision/recall in notebook
@@ -52,8 +52,8 @@ This project directly targets the hackathon's core themes:
 - **Technical Complexity** → XGBoost, hyperparameter tuning, SHAP interpretability, reproducible pipeline
 
 ### Submission Materials (for Devpost)
-- **PDF Report** (2–3+ pages): [report.pdf](file:///C:/Users/doveg/Desktop/Byte2Beat/FraminghamAI_Report_Kaushar.pdf) — problem framing, methods, evaluation, results
-- **Reproducible Notebook**: [Colab link]((https://colab.research.google.com/drive/1yIxG-tbrjmAflik7jjlZSdKF6DIx28wn?usp=sharing)) — data prep, model training, SHAP analysis, export
+- **PDF Report** (2–3+ pages): [report.pdf](report.pdf) — problem framing, methods, evaluation, results
+- **Reproducible Notebook**: [Colab link](https://colab.research.google.com/drive/1yIxG-tbrjmAflik7jjlZSdKF6DIx28wn?usp=sharing) — data prep, model training, SHAP analysis, export
 - **Live Demo**: This GitHub Pages site
 
 ### Tech Stack
