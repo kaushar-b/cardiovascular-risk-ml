@@ -15,7 +15,7 @@ Cardiovascular disease (CVD) remains the **leading cause of death worldwide**, c
 Traditional risk assessment tools exist, but many lack modern machine learning power, clear explanations of **why** a risk score is given, or easy public access. This project bridges that gap.
 
 ### Approach FraminghamAI
-We built **FraminghamAI**: an end-to-end ML pipeline + interactive web calculator that assesses **10-year cardiovascular risk** using data from the legendary **Framingham Heart Study**.
+What's built - **FraminghamAI**: an end-to-end ML pipeline + interactive web calculator that assesses **10-year cardiovascular risk** using data from the legendary **Framingham Heart Study**.
 
 #### Why Framingham?
 The Framingham Heart Study (started 1948) is one of the most influential longitudinal studies in medical history. It followed thousands of participants over decades, identifying major CVD risk factors (high blood pressure, cholesterol, smoking, diabetes, age, etc.) and creating the original risk equations still used by clinicians today.
